@@ -1,5 +1,4 @@
-
- /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
+/* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -16,4 +15,49 @@ body {
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
 
+ol, ul {
+    list-style: none;
+}
 
+.divarriba {
+    min-width: 37.5rem;
+}
+
+.maintext {
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+    color: azure;
+}
+
+.centradito {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.orangebtn {
+    background-color: orange;
+}
+
+.thechoices {
+    display: flex;
+    justify-content: space-around;
+}
+
+#navMenu{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+#navMenu > li{
+padding: 10px;
+}
+
+.Everyone {
+    text-align: center;
+}
